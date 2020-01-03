@@ -5,4 +5,7 @@ project(submodule-test LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(submodule-test main.cpp)
+add_executable(submodule-test
+    somelib.cpp
+    somelib.h
+    )
