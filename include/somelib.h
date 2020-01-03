@@ -1,0 +1,1 @@
+int squared(int value);
