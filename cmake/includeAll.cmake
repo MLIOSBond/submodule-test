@@ -1,3 +1,5 @@
+message(STATUS "include all files: submodule-test project")
+
 set(SUBMODULE_TEST_PROJECT_PATH "..")
 set(SUBMODULE_TEST_INCLUDE_PATH "${SUBMODULE_TEST_PROJECT_PATH}/include/submodule-test")
 set(SUBMODULE_TEST_SOURCE_PATH "${SUBMODULE_TEST_PROJECT_PATH}/src")
