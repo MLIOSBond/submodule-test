@@ -1,4 +1,4 @@
-#include "somelib.h"
+#include "../include/submodule-test/somelib.h"
 
 int squared(int value)
 {
