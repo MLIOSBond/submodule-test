@@ -8,10 +8,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_library(${PROJECT_NAME} src/somelib.cpp)
 add_library(sub::module1 ALIAS ${PROJECT_NAME})
 
-target_include_directories( ${PROJECT_NAME}
+target_include_directories(${PROJECT_NAME}
     PUBLIC ${PROJECT_SOURCE_DIR}/include)
-
-#add_executable(submodule-test
-#    src/somelib.cpp
-#    include/submodule-test/somelib.h
-#
